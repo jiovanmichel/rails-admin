@@ -1,0 +1,12 @@
+$bg-header: #343a40;
+
+.header-site{
+	background: $bg-header;
+	color: $white;
+	nav{
+		padding: 15px 0;
+		.nav-item{
+			padding-right: 15px;
+		}
+	}
+}

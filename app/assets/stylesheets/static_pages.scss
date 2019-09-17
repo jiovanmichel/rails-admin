@@ -1,0 +1,61 @@
+$light-gray: #f7f7f7;
+
+
+//index
+.img-banner-carousel{
+	max-height: 400px;
+}
+
+.container-presentation{
+	padding-top: 30px;
+	text-align: center;
+	h1{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	p{
+		font-style: oblique;
+		font-size: 14px;
+	}
+}
+
+.container-cards{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	background: $light-gray;
+	.card{
+		margin-bottom: 30px;
+	}
+	h1{
+		font-size: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+}
+
+.container-newsletter{
+	background: $bg-header;
+	color: $white;
+	padding-top: 30px;
+	h1{
+		font-size: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	p{
+		text-align: center;
+		font-style: oblique;
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+}
+
+.construction-container{
+	text-align: center;
+	img{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		max-width: 75%;
+	}
+}
